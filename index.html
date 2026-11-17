@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopi Amai Bukik Apik — Toko Online & Warisan Rasa Sejak 1923</title>
+<meta name="description" content="Toko online resmi Kopi Amai Bukik Apik, Bukittinggi. Kopi bubuk tradisional 100% alami sejak 1923, generasi ke-5. P-IRT No. 2101375010016-18.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg-dark:#140B05;--coffee-dark:#261408;--coffee-mid:#4E2E0E;--gold:#FFC107;--gold-soft:#FFD966;--red-adat:#E10600;--cream:#FFF8EB;--text-muted:#D8C7B4;--border-gold:rgba(255,193,7,.28);--wa-green:#25D366}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--bg-dark);color:var(--cream);line-height:1.6;overflow-x:hidden}
+h1,h2,h3,h4,.font-serif{font-family:'Playfair Display',serif}a{text-decoration:none;color:inherit}button{font:inherit;cursor:pointer}
+.container{max-width:1200px;margin:auto}
+.promo-strip{background:linear-gradient(90deg,var(--red-adat),#A30500,var(--red-adat));color:#fff;text-align:center;font-size:.8rem;font-weight:700;padding:7px 14px}
+.promo-strip span{color:var(--gold);text-decoration:underline}
+header{position:sticky;top:0;z-index:900;background:rgba(20,11,5,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border-gold)}
+.nav-wrap{max-width:1200px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:11px}.brand-badge {
+  height: 48px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: #1B0F06;
+  color: var(--gold);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--gold);
+  flex-shrink: 0;
+}
+.brand-badge img { height: 100%; width: auto; object-fit: contain; }
+.brand-text strong{display:block;font:900 1.15rem 'Playfair Display',serif;color:var(--gold);line-height:1.1}.brand-text span{font-size:.7rem;color:var(--gold-soft);letter-spacing:.8px;text-transform:uppercase}
+nav{display:flex;gap:18px;align-items:center}nav a{font-size:.86rem;font-weight:600;color:var(--text-muted)}nav a:hover{color:var(--gold)}
+.nav-actions{display:flex;align-items:center;gap:8px}.btn-icon-nav{background:rgba(78,46,14,.65);border:1px solid var(--border-gold);color:var(--cream);padding:8px 12px;border-radius:10px;font-size:.82rem;font-weight:700}
+.cart-count{background:var(--red-adat);color:#fff;font-size:.72rem;padding:1px 7px;border-radius:999px}
+section{padding:64px 20px}.section-head{text-align:center;max-width:740px;margin:0 auto 38px}.section-sub{color:var(--gold);font-size:.78rem;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;display:block;margin-bottom:6px}.section-head h2{font-size:clamp(1.75rem,3.2vw,2.4rem);margin-bottom:8px}.section-head p{color:var(--text-muted);font-size:.94rem}
+.hero{background:radial-gradient(circle at 78% 20%,rgba(255,193,7,.16),transparent 46%),radial-gradient(circle at 12% 85%,rgba(225,6,0,.18),transparent 44%),linear-gradient(180deg,#241307,#140B05);border-bottom:1px solid var(--border-gold);padding:52px 20px 64px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}
+.pill-heritage{display:inline-flex;background:rgba(225,6,0,.22);border:1px solid var(--red-adat);color:var(--gold-soft);padding:6px 14px;border-radius:999px;font-size:.78rem;font-weight:700;margin-bottom:16px}
+.hero h1{font-size:clamp(2.1rem,4.3vw,3.3rem);line-height:1.12;color:var(--gold);margin-bottom:12px}.hero h1 span{display:block;color:var(--cream);font-size:clamp(1.2rem,2.3vw,1.7rem);margin-top:6px}
+.hero-quote{font-style:italic;color:var(--gold-soft);margin-bottom:14px;border-left:3px solid var(--gold);padding-left:14px}.hero p{color:var(--text-muted);margin-bottom:22px;max-width:580px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}.btn-primary{background:linear-gradient(135deg,var(--gold),#F59E0B);color:#1A0F05;padding:12px 22px;border-radius:12px;font-weight:800;border:0;display:inline-flex;align-items:center;gap:8px;box-shadow:0 8px 22px rgba(255,193,7,.26)}.btn-outline{border:1.5px solid var(--gold);color:var(--gold);background:transparent;padding:11px 20px;border-radius:12px;font-weight:700}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat-box{background:rgba(78,46,14,.45);border:1px solid var(--border-gold);border-radius:12px;padding:11px 8px;text-align:center}.stat-box strong{display:block;color:var(--gold);font-size:1.1rem}.stat-box span{font-size:.7rem;color:var(--text-muted);text-transform:uppercase}
+.hero-card{background:linear-gradient(160deg,var(--coffee-mid),var(--coffee-dark));border:2px solid var(--gold);border-radius:22px;padding:22px;text-align:center;box-shadow:0 20px 50px #0009;position:relative}.promo-ribbon{position:absolute;top:-13px;right:16px;background:var(--red-adat);color:#fff;font-weight:800;font-size:.74rem;padding:5px 13px;border-radius:999px}.hero-img-frame {
+  width: 100%;
+  height: 250px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #120904;
+  border: 1px solid var(--border-gold);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.hero-img-frame img { width: 100%; height: 100%; object-fit: cover; }
+.promo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.promo-card{background:linear-gradient(135deg,#4e2e0ea6,#261408e6);border:1.5px solid var(--gold);border-radius:16px;padding:20px}.promo-tag{display:inline-block;background:var(--red-adat);color:#fff;font-size:.7rem;font-weight:800;padding:3px 10px;border-radius:6px;margin-bottom:8px}.promo-card h3{color:var(--gold);font-size:1.2rem;margin-bottom:6px}.promo-card p{font-size:.86rem;color:var(--text-muted);margin-bottom:12px}.voucher-code{display:inline-flex;background:#120904;border:1px dashed var(--gold);padding:6px 12px;border-radius:8px;font-size:.82rem;font-weight:800;color:var(--gold-soft)}
+.catalog-bg{background:linear-gradient(180deg,#1C0F06,#261408 50%,#140B05);border-block:1px solid var(--border-gold)}.cat-tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:30px}.cat-btn{background:#2b180acc;border:1px solid var(--border-gold);color:var(--text-muted);padding:9px 18px;border-radius:999px;font-weight:700;font-size:.85rem}.cat-btn.active,.cat-btn:hover{background:var(--gold);color:#160D06;border-color:var(--gold)}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:22px}.product-card{background:var(--coffee-dark);border:1px solid var(--border-gold);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:.2s}.product-card:hover{transform:translateY(-4px);border-color:var(--gold)}.product-thumb{height:220px;background:#100803;position:relative;display:flex;align-items:center;justify-content:center;padding:10px;cursor:pointer}.product-thumb img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}.weight-badge{position:absolute;top:10px;left:10px;background:var(--gold);color:#1A0F05;font-weight:800;font-size:.72rem;padding:4px 9px;border-radius:6px}.detail-hint{position:absolute;bottom:8px;right:10px;background:#140b05dd;border:1px solid var(--border-gold);color:var(--gold-soft);font-size:.7rem;padding:3px 8px;border-radius:6px}.product-body{padding:18px;flex:1;display:flex;flex-direction:column}.product-body h3{font-size:1.12rem;margin-bottom:6px;cursor:pointer}.product-body p{color:var(--text-muted);font-size:.84rem;margin-bottom:14px;flex:1}.price-row{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px dashed var(--border-gold);gap:8px}.price{font-size:1.15rem;font-weight:800;color:var(--gold)}.btn-add-cart{background:linear-gradient(135deg,var(--gold),#F59E0B);color:#160D06;border:0;padding:8px 14px;border-radius:9px;font-weight:800;font-size:.82rem}
+.mitra-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}.swalayan-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}.store-chip{background:#2b180acc;border:1px solid var(--border-gold);border-radius:12px;padding:12px 14px}.store-chip strong{display:block;color:var(--gold);font-size:.9rem}.store-chip span{font-size:.78rem;color:var(--text-muted)}
+.mitra-form-box{background:linear-gradient(160deg,var(--coffee-mid),var(--coffee-dark));border:2px solid var(--gold);border-radius:18px;padding:22px}.mitra-form-box h3{color:var(--gold);font-size:1.3rem}.form-stack{display:grid;gap:10px;margin-top:14px}.input-dark{width:100%;background:#120904;border:1px solid var(--border-gold);border-radius:10px;padding:10px 13px;color:var(--cream);font-size:.88rem}.input-dark:focus{outline:none;border-color:var(--gold)}
+.history-grid,.location-card{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.timeline{display:grid;gap:12px}.gen-item{background:#2b180aa6;border-left:4px solid var(--gold);padding:12px 16px;border-radius:0 12px 12px 0}.gen-item strong{color:var(--gold);display:block;font-size:.94rem}.gen-item span{color:var(--text-muted);font-size:.84rem}.location-card{background:var(--coffee-dark);border:1px solid var(--border-gold);border-radius:20px;padding:26px}.info-list{display:grid;gap:10px;margin:14px 0 18px;font-size:.9rem;color:var(--text-muted)}.info-list strong{color:var(--gold)}.map-embed{width:100%;height:260px;border-radius:14px;border:1px solid var(--gold);overflow:hidden}.map-embed iframe{width:100%;height:100%;border:0}
+footer{background:#0D0602;border-top:1px solid var(--border-gold);text-align:center;padding:26px 20px;font-size:.82rem;color:var(--text-muted)}
+.overlay,.modal-center{position:fixed;inset:0;background:#000b;z-index:1100;display:none}.overlay.open{display:flex;justify-content:flex-end}.drawer{width:100%;max-width:480px;background:#1B0F06;border-left:2px solid var(--gold);height:100%;overflow-y:auto;padding:22px;display:flex;flex-direction:column;gap:16px}.drawer-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border-gold);padding-bottom:12px}.close-btn{background:#ffffff14;border:1px solid var(--border-gold);color:var(--cream);width:34px;height:34px;border-radius:8px}.cart-item{background:var(--coffee-dark);border:1px solid var(--border-gold);border-radius:12px;padding:12px;display:flex;justify-content:space-between;align-items:center;gap:10px}.qty-box{display:inline-flex;align-items:center;background:#120904;border:1px solid var(--gold);border-radius:8px}.qty-box button{background:transparent;border:0;color:var(--gold);width:28px;height:28px;font-weight:800}.qty-box span{min-width:24px;text-align:center;font-size:.85rem;font-weight:800}.checkout-group{background:#2b180a8c;border:1px solid var(--border-gold);border-radius:12px;padding:14px;display:grid;gap:10px}.checkout-group label{font-size:.8rem;font-weight:700;color:var(--gold-soft)}.pay-options{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pay-chip{background:#120904;border:1px solid var(--border-gold);border-radius:9px;padding:9px 10px;font-size:.78rem;font-weight:700;color:var(--cream)}.pay-chip.selected{border-color:var(--gold);background:#ffc10729;color:var(--gold)}.summary-box{background:#120904;border:1px solid var(--gold);border-radius:12px;padding:14px;font-size:.86rem}.sum-row{display:flex;justify-content:space-between;margin-bottom:6px;color:var(--text-muted)}.sum-total{display:flex;justify-content:space-between;border-top:1px dashed var(--border-gold);padding-top:10px;margin-top:8px;font-size:1.1rem;font-weight:800;color:var(--gold)}.btn-wa-full{width:100%;background:var(--wa-green);color:#071B0D;border:0;padding:14px;border-radius:12px;font-weight:800;font-size:.95rem}
+.modal-center{z-index:1200;align-items:center;justify-content:center;padding:18px}.modal-center.open{display:flex}.modal-card{background:#1E1006;border:2px solid var(--gold);border-radius:20px;max-width:560px;width:100%;max-height:88vh;overflow-y:auto;padding:24px}
+@media(max-width:900px){.hero-grid,.mitra-grid,.history-grid,.location-card{grid-template-columns:1fr}nav{display:none}.hero-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.nav-wrap{padding:10px 12px}.brand-text span{font-size:.6rem}.btn-icon-nav{padding:8px}.hero{padding-top:38px}.hero-card{padding:15px}section{padding:48px 15px}.drawer{padding:16px}}
+</style>
+</head>
+<body>
+<div class="promo-strip">FREE ONGKIR BUKITTINGGI & SEKITARNYA • <span>Jampuik Karumah di Bukik Apik: GRATIS KOPI SAGALEH!</span></div>
+<header><div class="nav-wrap">
+<a href="#" class="brand">
+  <div class="brand-badge">
+    <img src="./logo-kopi-amai.png" alt="Logo Kopi Amai">
+  </div>
+  <div class="brand-text">
+    <strong>Kopi Amai</strong>
+    <span>Bukik Apik • Sejak 1923</span>
+  </div>
+</a>
+<nav><a href="#promo">Promo</a><a href="#produk">Katalog</a><a href="#mitra">Swalayan & Lapau</a><a href="#sejarah">103 Tahun</a><a href="#kontak">Kontak</a></nav>
+<div class="nav-actions"><button class="btn-icon-nav" onclick="bukaRiwayat()">Riwayat</button><button class="btn-icon-nav" onclick="bukaKeranjang()">Keranjang <span class="cart-count" id="nav-cart-count">0</span></button></div>
+</div></header>
+<main>
+<section class="hero" id="beranda"><div class="container hero-grid"><div>
+<div class="pill-heritage">103 TAHUN WARISAN RASA • GENERASI KE-5</div><h1>KOPI AMAI<span>Kopi Bubuk Tradisional Khas Bukik Apik</span></h1>
+<div class="hero-quote">“Bukan sekadar secangkir kopi. Ini cerita generasi ke generasi yang terus diseduh.”</div>
+<p>100% kopi bubuk alami tanpa campuran, direndang secara tradisional di atas <b>Tungku Parandangan</b> di Bukik Apik, Bukittinggi sejak 1923. Kini hadir di <b>Swalayan Bukittinggi</b> & <b>Lapau-Lapau</b>.</p>
+<div class="hero-actions"><a class="btn-primary" href="#produk">Belanja Sekarang →</a><a class="btn-outline" href="#mitra">Cek Swalayan & Lapau</a></div>
+<div class="hero-stats"><div class="stat-box"><strong>1923</strong><span>Sejak Tahun</span></div><div class="stat-box"><strong>5 Gen</strong><span>Warisan Bundo</span></div><div class="stat-box"><strong>7+</strong><span>Swalayan Kota</span></div><div class="stat-box"><strong>100%</strong><span>Kopi Alami</span></div></div>
+</div><div class="hero-card">
+        <div class="promo-ribbon">KOPI AMAI</div>
+        <div class="hero-img-frame" style="height: auto; padding: 0; background: transparent; border: none;">
+          <img src="./jampuik-karumah.png" alt="Jampuik Karumah Gratis Kopi Sagaleh - Kopi Amai" style="width: 100%; height: auto; border-radius: 14px; display: block;">
+        </div>
+        <h3 class="font-serif" style="color: var(--gold); font-size: 1.25rem;">Cubo Dulu Nan Ketek, Pasti Talamak</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+          Tersedia mulai kemasan minimalis <strong>100 gr (Rp 12.000)</strong> hingga <strong>500 gr</strong>.
+        </p>
+      </div>
+    </div></section>
+<section id="promo"><div class="container"><div class="section-head"><span class="section-sub">Penawaran Istimewa Dunsanak</span><h2>Promo & Layanan Spesial Kopi Amai</h2></div><div class="promo-grid">
+<div class="promo-card"><span class="promo-tag">LAYANAN ANTAR</span><h3>Free Ongkir Bukittinggi & Sekitarnya</h3><p>Pesan dari rumah untuk wilayah Kota Bukittinggi dan sekitarnya, kami antar langsung tanpa biaya kirim.</p><b>Pilih Wilayah: Bukittinggi (Rp 0)</b></div>
+<div class="promo-card"><span class="promo-tag">DATANG LANGSUNG</span><h3>Jampuik Karumah, Gratis Kopi Sagaleh!</h3><p>Ingin beli langsung ke dapur produksi di Jl. Bukik Apik No. 86? Singgah dan nikmati suguhan kopi gratis segelas!</p><b>Alamat: Jl. Bukik Apik No. 86</b></div>
+<div class="promo-card"><span class="promo-tag">VOUCHER BELANJA</span><h3>Diskon Hemat Pembelian Online</h3><p>Gunakan kode promo di keranjang checkout untuk potongan harga spesial pembelian pouch Kopi Amai.</p><span class="voucher-code">Kode: AMAI1923 • Diskon Rp 2.000</span></div>
+</div></div></section>
+<section class="catalog-bg" id="produk"><div class="container"><div class="section-head"><span class="section-sub">100% Kopi Bubuk Murni Tanpa Campuran</span><h2>Katalog Produk Kopi Amai</h2><p>Klik gambar produk untuk melihat detail komposisi & cara seduh, atau langsung tambahkan ke keranjang.</p></div>
+<div class="cat-tabs"><button class="cat-btn active" onclick="filterKategori('semua',this)">Semua Produk</button><button class="cat-btn" onclick="filterKategori('harian',this)">Kemasan Harian</button><button class="cat-btn" onclick="filterKategori('hemat',this)">Kemasan Hemat</button><button class="cat-btn" onclick="filterKategori('mitra',this)">Paket Mitra Lapau</button></div><div class="products-grid" id="products-container"></div>
+</div></section>
+<section id="mitra"><div class="container"><div class="section-head"><span class="section-sub">Semakin Dekat dengan Anda</span><h2>Jaringan Swalayan & Mitra Lapau</h2><p>Kopi Amai kini mudah ditemukan di swalayan kebanggaan Kota Bukittinggi serta lapau-lapau terdekat.</p></div>
+<div class="mitra-grid"><div><h3 style="color:var(--gold)">Tersedia di Swalayan Kota Bukittinggi</h3><p style="color:var(--text-muted);margin-top:6px">Dapatkan kemasan standing pouch Kopi Amai di jaringan swalayan berikut:</p><div class="swalayan-list">
+<div class="store-chip"><strong>Budhi Market</strong><span>Simpang Taman</span></div><div class="store-chip"><strong>Budiman Swalayan</strong><span>ByPass Bukittinggi</span></div><div class="store-chip"><strong>Masyitah Swalayan</strong><span>Simpang Yarsi</span></div><div class="store-chip"><strong>Budiman Swalayan</strong><span>Kapeh Panji</span></div><div class="store-chip"><strong>Budiman Swalayan</strong><span>Simpang Jembes</span></div><div class="store-chip"><strong>Budiman Swalayan</strong><span>Birugo</span></div><div class="store-chip"><strong>Mandiri Store</strong><span>ByPass Bukittinggi</span></div><div class="store-chip"><strong>Lapau-Lapau Sekitar</strong><span>Langganan Dunsanak Sadonyo</span></div>
+</div></div>
+<div class="mitra-form-box"><h3>Daftar Mitra Lapau / Reseller</h3><p style="color:var(--text-muted);font-size:.86rem">Punya lapau, warung, kedai kopi, atau toko oleh-oleh? Bergabung menjadi mitra pasokan rutin Kopi Amai.</p><div class="form-stack"><input class="input-dark" id="mitra-nama" placeholder="Nama usaha / lapau"><input class="input-dark" id="mitra-lokasi" placeholder="Lokasi / alamat"><select class="input-dark" id="mitra-jenis"><option>Mitra Lapau / Warung (Paket Renceng)</option><option>Reseller Kemasan Pouch (100g/200g/500g)</option><option>Pasokan Kedai Kopi / Kafe</option></select><button class="btn-wa-full" onclick="daftarMitraWA()">Ajukan Kemitraan via WhatsApp</button></div></div></div></div></section>
+<section id="sejarah"><div class="container"><div class="section-head"><span class="section-sub">Warisan Rasa Sejak 1923</span><h2>103 Tahun Merawat Tradisi Tungku Parandangan</h2></div><div class="history-grid"><div style="background:linear-gradient(145deg,#4e2e0e,#140b05);border:1px solid var(--border-gold);border-radius:18px;padding:30px"><div style="font-size:4rem;text-align:center">☕</div><p style="color:var(--text-muted)">Berawal sekitar tahun <b>1923</b>, tradisi merendang kopi secara alami di <b>Bukik Apik, Bukittinggi</b> diwariskan turun-temurun dari cerita <i>Bundo Kanduang</i> hingga kini diteruskan oleh <b>Generasi ke-5</b>.</p><p style="color:var(--text-muted);margin-top:12px">Tanpa mesin modern otomatis—melainkan ketelitian rasa, api tungku kayu, dan biji kopi pilihan agar cita rasa khas Bukik Apik tetap terjaga.</p></div><div class="timeline">
+<div style="background: var(--coffee-dark); border: 1.5px solid var(--gold); border-radius: 16px; padding: 12px; margin-bottom: 4px;">
+  <img src="./kopi-rendang.jpg" alt="Biji Kopi Hasil Rendang Tradisional Kopi Amai Bukik Apik"
+       style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px; display: block;">
+  <p style="font-size: 0.8rem; color: var(--gold-soft); text-align: center; margin-top: 8px; font-weight: 600;">
+    Biji kopi pilihan hasil merendang tradisional di Tungku Parandangan, Bukik Apik.
+  </p>
+</div>
+<div class="gen-item"><strong>Generasi 1 (± 1923) — Perintis Bukik Apik</strong><span>Memulai tradisi merendang kopi bubuk murni di atas Tungku Parandangan.</span></div><div class="gen-item"><strong>Generasi 2 & 3 — Menjaga Takaran Asli</strong><span>Mempertahankan proses sangrai tradisional 100% tanpa campuran bahan tambahan.</span></div><div class="gen-item"><strong>Generasi 4 — Kopi Kebanggaan Keluarga</strong><span>Menjadi langganan penikmat kopi tradisional di Bukittinggi dan sekitarnya.</span></div><div class="gen-item"><strong>Generasi ke-5 (Sekarang) — Kopi Amai</strong><span>Hadir dalam kemasan modern berizin resmi P-IRT, masuk jaringan swalayan, lapau-lapau, serta pemesanan online.</span></div>
+</div></div></div></section>
+<section id="kontak"><div class="container"><div class="section-head"><span class="section-sub">Kontak & Dapur Produksi</span><h2>Tungku Parandangan Kopi Amai</h2></div><div class="location-card"><div><h3 style="color:var(--gold)">Kopi Amai Bukik Apik</h3><div class="info-list"><div><strong>Alamat:</strong> Jl. Bukik Apik No. 86, Bukit Apit Puhun, Kec. Guguk Panjang, Kota Bukittinggi, Sumatera Barat 26136</div><div><strong>WhatsApp Pemesanan & Pembayaran:</strong> +62 895600452423</div><div><strong>Telepon / HP:</strong> +62 895600452423</div><div><strong>Legalitas Resmi:</strong> P-IRT No. 2101375010016-18</div></div><div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px;">
+  <a href="https://maps.app.goo.gl/xLer7L2XFgnN1QwP6" target="_blank" rel="noopener" class="btn-primary">Buka Google Maps</a>
+  <a href="https://wa.me/62895600452423" target="_blank" rel="noopener" class="btn-outline">WhatsApp</a>
+  <a href="https://www.instagram.com/kopiamai1923/" target="_blank" rel="noopener" class="btn-outline">Instagram</a>
+  <a href="https://www.facebook.com/share/1G5Rt9myny/" target="_blank" rel="noopener" class="btn-outline">Facebook</a>
+</div> </div><div class="map-embed"><iframe loading="lazy" title="Lokasi Kopi Amai" src="https://www.google.com/maps?q=-0.308675,100.372045&output=embed"></iframe></div></div></div></section>
+</main>
+<footer>
+  <strong>KOPI AMAI BUKIK APIK</strong> — Warisan Rasa dari Generasi ke Generasi (Sejak 1923)<br />
+  Jl. Bukik Apik No. 86, Kota Bukittinggi • P-IRT No. 2101375010016-18 • WA: +62 895600452423<br />
+  <div style="margin-top: 8px;">
+    <a href="https://www.instagram.com/kopiamai1923/" target="_blank" rel="noopener" style="color: var(--gold); font-weight: 700;">Instagram</a> &nbsp;•&nbsp;
+    <a href="https://www.facebook.com/share/1G5Rt9myny/" target="_blank" rel="noopener" style="color: var(--gold); font-weight: 700;">Facebook</a>
+  </div>
+</footer>
+
+<div class="overlay" id="cart-overlay" onclick="tutupOverlay(event,'cart-overlay')"><aside class="drawer">
+<div class="drawer-head"><h2 class="font-serif" style="color:var(--gold)">Keranjang & Checkout</h2><button class="close-btn" onclick="tutupKeranjang()">✕</button></div>
+<div id="cart-items-list"></div>
+<div class="checkout-group"><label for="promo-input">Kode Promo (Opsional)</label><div style="display:flex;gap:8px"><input class="input-dark" id="promo-input" placeholder="Masukkan kode promo"><button class="btn-primary" style="padding:8px 12px" onclick="terapkanPromo()">Pakai</button></div><small id="promo-msg" style="color:var(--gold-soft)"></small></div>
+<div class="checkout-group"><label for="shipping-zone">Wilayah Pengiriman (Perhitungan Ongkir)</label><select class="input-dark" id="shipping-zone" onchange="renderKeranjang()"><option value="bkt">Kota Bukittinggi & Sekitarnya (FREE ONGKIR - Rp 0)</option><option value="jampuik">Jampuik Karumah Bukik Apik (Gratis Kopi Sagaleh - Rp 0)</option><option value="sumbar">Luar Kota - Sumatera Barat (Estimasi Rp 15.000 / kg)</option><option value="sumatera">Luar Provinsi - Pulau Sumatera (Estimasi Rp 28.000 / kg)</option><option value="jawa">Pulau Jawa & Sekitarnya (Estimasi Rp 35.000 / kg)</option></select>
+<div id="kurir-wrap" style="display:none"><label for="shipping-courier">Pilihan Ekspedisi Luar Kota</label><select class="input-dark" id="shipping-courier"><option>J&T Express</option><option>JNE Reguler</option><option>SiCepat</option><option>POS Indonesia</option></select></div></div>
+<div class="checkout-group"><label>Metode Pembayaran (Konfirmasi via WhatsApp)</label><div class="pay-options"><button class="pay-chip selected" onclick="pilihBayar('QRIS',this)">QRIS</button><button class="pay-chip" onclick="pilihBayar('Transfer Bank',this)">Transfer Bank</button><button class="pay-chip" onclick="pilihBayar('E-Wallet',this)">E-Wallet</button><button class="pay-chip" onclick="pilihBayar('COD Bukittinggi',this)">COD Bukittinggi</button></div><small style="color:var(--text-muted)">Rincian QRIS, nomor rekening transfer, atau E-Wallet dikirimkan melalui WhatsApp resmi Kopi Amai setelah pesanan dibuat.</small></div>
+<div class="checkout-group"><label for="co-name">Nama Pemesan</label><input class="input-dark" id="co-name" placeholder="Nama lengkap"><label for="co-address">Alamat Lengkap Pengantaran</label><textarea class="input-dark" id="co-address" rows="3" placeholder="Alamat lengkap dan patokan"></textarea></div>
+<div class="summary-box"><div class="sum-row"><span>Subtotal Produk (<span id="sum-weight">0</span> gr)</span><b id="sum-sub">Rp 0</b></div><div class="sum-row"><span>Potongan Promo</span><b id="sum-disc">- Rp 0</b></div><div class="sum-row"><span>Ongkos Kirim</span><b id="sum-ship">Rp 0</b></div><div class="sum-total"><span>Total Bayar</span><span id="sum-total">Rp 0</span></div></div>
+<button class="btn-wa-full" onclick="prosesCheckoutWA()">Checkout & Konfirmasi via WhatsApp</button>
+</aside></div>
+<div class="modal-center" id="detail-modal" onclick="tutupOverlay(event,'detail-modal')"><div class="modal-card" id="detail-content"></div></div>
+<div class="modal-center" id="history-modal" onclick="tutupOverlay(event,'history-modal')"><div class="modal-card"><div class="drawer-head"><h2 style="color:var(--gold)">Riwayat Pesanan Anda</h2><button class="close-btn" onclick="document.getElementById('history-modal').classList.remove('open')">✕</button></div><div id="history-list" style="margin-top:14px"></div></div></div>
+
+<script>
+const katalog=[
+{id:"p100",nama:"Kopi Amai Pouch 100 gr",kategori:"harian",badge:"100 GR • MINIMALIS",harga:12000,berat:100,gambar:"pouch-100.jpg",ringkas:"Kemasan minimalis 'Duo Baleh Ribu Sajo'. Pas untuk mencoba keaslian rasa Kopi Bukik Apik.",detail:"Bubuk kopi murni 100% yang direndang tradisional di Tungku Parandangan Bukik Apik. Dikemas dalam standing pouch hitam dengan klip zipper kedap udara agar aroma tetap harum.",saranSeduh:"Seduh 1,5 - 2 sendok makan bubuk Kopi Amai dengan 200 ml air mendidih (95°C), diamkan 2 menit hingga ampas turun, siap dinikmati."},
+{id:"p200",nama:"Kopi Amai Pouch 200 gr",kategori:"harian",badge:"200 GR • FAVORIT",harga:24000,berat:200,gambar:"pouch-200.jpg",ringkas:"Ukuran paling favorit untuk stok seduhan harian di rumah bersama keluarga.",detail:"Racikan warisan Generasi ke-5 sejak 1923 tanpa campuran jagung maupun bahan pengawet. Kemasan 200 gram ideal untuk persediaan rumah.",saranSeduh:"Cocok diseduh tubruk khas lapau Minang maupun memakai saringan kain untuk kopi hitam pekat atau kopi susu."},
+{id:"p500",nama:"Kopi Amai Pouch 500 gr",kategori:"hemat",badge:"500 GR • KEMASAN HEMAT",harga:60000,berat:500,gambar:"pouch-500.jpg",ringkas:"Kemasan besar setengah kilogram untuk penikmat kopi sejati, kedai kopi, maupun oleh-oleh.",detail:"Kemasan 500 gram dengan izin resmi P-IRT No. 2101375010016-18. Menjaga kesegaran bubuk kopi sangrai tradisional lebih lama.",saranSeduh:"Simpan di tempat sejuk dan tutup rapat zipper setelah dibuka agar aroma tetap terjaga."},
+{id:"renceng",nama:"Paket Renceng Lapau",kategori:"mitra",badge:"MITRA LAPAU / WARUNG",harga:0,berat:500,gambar:"renceng-lapau.jpg",ringkas:"Kemasan papan gantung siap pajang untuk lapau-lapau dan warung.",detail:"Dirancang khusus untuk mitra lapau dan warung harian. Hubungi WhatsApp untuk daftar harga grosir mitra.",saranSeduh:"Hubungi WhatsApp kami untuk daftar harga grosir mitra lapau dan jadwal pengantaran rutin."}
+];
+let keranjang=JSON.parse(localStorage.getItem("kopi_amai_cart")||"{}");
+let metodeBayar="QRIS",diskonAktif=0,kodePromoAktif="";
+const WA="62895600452423";
+function rp(n){return "Rp "+Number(n).toLocaleString("id-ID")}
+function renderKatalog(filter="semua"){
+ const box=document.getElementById("products-container"),list=filter==="semua"?katalog:katalog.filter(p=>p.kategori===filter);
+ box.innerHTML=list.map(p=>`<article class="product-card"><div class="product-thumb" onclick="bukaDetail('${p.id}')"><img src="${p.gambar}" alt="${p.nama}" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<span style=color:#FFD966;font-weight:800>${p.nama}</span>')"><span class="weight-badge">${p.badge}</span><span class="detail-hint">Lihat Detail</span></div><div class="product-body"><h3 onclick="bukaDetail('${p.id}')">${p.nama}</h3><p>${p.ringkas}</p><div class="price-row"><span class="price">${p.harga?rp(p.harga):"Harga Mitra"}</span><button class="btn-add-cart" onclick="${p.harga?`tambahKeranjang('${p.id}')`:`tanyaHargaMitra()`}">${p.harga?"+ Keranjang":"Tanya via WA"}</button></div></div></article>`).join("");
+}
+function filterKategori(kat,btn){document.querySelectorAll(".cat-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderKatalog(kat)}
+function bukaDetail(id){
+ const p=katalog.find(x=>x.id===id);if(!p)return;
+ document.getElementById("detail-content").innerHTML=`<div class="drawer-head"><h3 style="color:var(--gold)">${p.nama}</h3><button class="close-btn" onclick="document.getElementById('detail-modal').classList.remove('open')">✕</button></div><div style="background:#100803;border:1px solid var(--border-gold);border-radius:14px;padding:12px;text-align:center;margin:14px 0"><img src="${p.gambar}" alt="${p.nama}" style="max-height:220px;max-width:100%;object-fit:contain" onerror="this.style.display='none'"></div><p>${p.detail}</p><div style="background:#4e2e0e73;border-left:3px solid var(--gold);padding:12px;margin:14px 0;border-radius:8px;color:var(--text-muted)"><b style="color:var(--gold)">Saran Penyajian:</b><br>${p.saranSeduh}</div><div class="price-row"><strong class="price">${p.harga?rp(p.harga):"Hubungi WA untuk Harga Mitra"}</strong>${p.harga?`<button class="btn-add-cart" onclick="tambahKeranjang('${p.id}');document.getElementById('detail-modal').classList.remove('open')">+ Masukkan Keranjang</button>`:`<button class="btn-add-cart" onclick="tanyaHargaMitra()">Chat WhatsApp</button>`}</div>`;
+ document.getElementById("detail-modal").classList.add("open");
+}
+function simpanKeranjang(){localStorage.setItem("kopi_amai_cart",JSON.stringify(keranjang));document.getElementById("nav-cart-count").textContent=Object.values(keranjang).reduce((a,b)=>a+b,0)}
+function tambahKeranjang(id){keranjang[id]=(keranjang[id]||0)+1;simpanKeranjang();renderKeranjang();document.getElementById("cart-overlay").classList.add("open")}
+function ubahItem(id,d){keranjang[id]=(keranjang[id]||0)+d;if(keranjang[id]<=0)delete keranjang[id];simpanKeranjang();renderKeranjang()}
+function terapkanPromo(){const kode=document.getElementById("promo-input").value.trim().toUpperCase(),msg=document.getElementById("promo-msg");if(kode==="AMAI1923"){diskonAktif=2000;kodePromoAktif=kode;msg.textContent="Kode AMAI1923 berhasil! Potongan Rp 2.000 diterapkan."}else{diskonAktif=0;kodePromoAktif="";msg.textContent="Kode promo tidak ditemukan."}renderKeranjang()}
+function pilihBayar(nama,el){metodeBayar=nama;document.querySelectorAll(".pay-chip").forEach(c=>c.classList.remove("selected"));el.classList.add("selected")}
+function hitungOngkir(berat){const zona=document.getElementById("shipping-zone").value,kurir=document.getElementById("kurir-wrap");if(zona==="bkt"||zona==="jampuik"){kurir.style.display="none";return 0}kurir.style.display="block";const kg=Math.max(1,Math.ceil(berat/1000)),tarif={sumbar:15000,sumatera:28000,jawa:35000};return kg*(tarif[zona]||0)}
+function hitungRingkasan(){let sub=0,berat=0;for(const id in keranjang){const p=katalog.find(x=>x.id===id);if(p){sub+=p.harga*keranjang[id];berat+=p.berat*keranjang[id]}}const disc=Math.min(diskonAktif,sub),ongkir=sub?hitungOngkir(berat):0;return{sub,berat,disc,ongkir,total:sub-disc+ongkir}}
+function renderKeranjang(){const list=document.getElementById("cart-items-list");list.innerHTML="";for(const id in keranjang){const p=katalog.find(x=>x.id===id);if(!p)continue;const row=document.createElement("div");row.className="cart-item";row.innerHTML=`<div><b>${p.nama}</b><br><small style="color:var(--gold)">${rp(p.harga)} x ${keranjang[id]}</small></div><div class="qty-box"><button onclick="ubahItem('${id}',-1)">−</button><span>${keranjang[id]}</span><button onclick="ubahItem('${id}',1)">+</button></div>`;list.appendChild(row)}if(!list.children.length)list.innerHTML='<p style="color:var(--text-muted);text-align:center;padding:12px">Keranjang masih kosong. Silakan pilih produk.</p>';const x=hitungRingkasan();document.getElementById("sum-weight").textContent=x.berat;document.getElementById("sum-sub").textContent=rp(x.sub);document.getElementById("sum-disc").textContent="- "+rp(x.disc);document.getElementById("sum-ship").textContent=x.ongkir===0?"GRATIS (Rp 0)":rp(x.ongkir);document.getElementById("sum-total").textContent=rp(x.total)}
+function prosesCheckoutWA(){
+ const ids=Object.keys(keranjang);if(!ids.length){alert("Keranjang Anda masih kosong.");return}
+ const nama=document.getElementById("co-name").value.trim(),alamat=document.getElementById("co-address").value.trim();if(!nama||!alamat){alert("Mohon isi nama dan alamat lengkap.");return}
+ const x=hitungRingkasan(),zonaEl=document.getElementById("shipping-zone"),zona=zonaEl.options[zonaEl.selectedIndex].text,kurir=(zonaEl.value==="bkt"||zonaEl.value==="jampuik")?"-":document.getElementById("shipping-courier").value;
+ const invoice="AMAI-"+Date.now().toString().slice(-6),items=ids.map(id=>{const p=katalog.find(q=>q.id===id);return `- ${p.nama} x${keranjang[id]} = ${rp(p.harga*keranjang[id])}`});
+ const riwayat=JSON.parse(localStorage.getItem("kopi_amai_history")||"[]");riwayat.unshift({invoice,tanggal:new Date().toLocaleString("id-ID"),items,total:rp(x.total),bayar:metodeBayar});localStorage.setItem("kopi_amai_history",JSON.stringify(riwayat.slice(0,15)));
+ const pesan=`Assalammualaikum Kopi Amai Bukik Apik,\nNo. Pesanan: *${invoice}*\n\n*Rincian Pesanan:*\n${items.join("\n")}\n\nSubtotal: ${rp(x.sub)}\n${x.disc?`Promo (${kodePromoAktif}): -${rp(x.disc)}\n`:""}Pengiriman: ${zona}\n${kurir!=="-"?`Ekspedisi: ${kurir}\n`:""}Ongkir: ${x.ongkir===0?"GRATIS":rp(x.ongkir)}\n*Total Bayar: ${rp(x.total)}*\nMetode Bayar: *${metodeBayar}*\n\nNama: ${nama}\nAlamat: ${alamat}\n\nMohon info pembayaran / konfirmasi pesanan saya. Terima kasih.`;
+ window.open(`https://wa.me/${WA}?text=${encodeURIComponent(pesan)}`,"_blank","noopener");
+ keranjang={};diskonAktif=0;kodePromoAktif="";document.getElementById("promo-input").value="";simpanKeranjang();renderKeranjang();
+}
+function bukaRiwayat(){const arr=JSON.parse(localStorage.getItem("kopi_amai_history")||"[]"),box=document.getElementById("history-list");box.innerHTML=arr.length?arr.map(r=>`<div class="cart-item" style="display:block;margin-top:10px"><b style="color:var(--gold)">${r.invoice}</b><br><small>${r.tanggal}</small><p style="margin:8px 0">${r.items.join("<br>")}</p><b>${r.bayar} • ${r.total}</b><br><a class="btn-outline" style="display:inline-block;margin-top:8px" href="https://wa.me/${WA}?text=${encodeURIComponent("Mohon cek status pesanan "+r.invoice)}" target="_blank">Tanya Status WA</a></div>`).join(""):'<p style="color:var(--text-muted);text-align:center;padding:16px">Belum ada riwayat pesanan di perangkat ini.</p>';document.getElementById("history-modal").classList.add("open")}
+function daftarMitraWA(){const nama=document.getElementById("mitra-nama").value.trim()||"-",lokasi=document.getElementById("mitra-lokasi").value.trim()||"-",jenis=document.getElementById("mitra-jenis").value,pesan=`Assalammualaikum Kopi Amai Bukik Apik,\nSaya tertarik bergabung menjadi *Jaringan Mitra / Lapau*:\n\nNama Usaha/Lapau: ${nama}\nLokasi/Alamat: ${lokasi}\nJenis Kemitraan: ${jenis}\n\nMohon informasi syarat dan daftar harga mitranya. Terima kasih.`;window.open(`https://wa.me/${WA}?text=${encodeURIComponent(pesan)}`,"_blank","noopener")}
+function tanyaHargaMitra(){window.open(`https://wa.me/${WA}?text=${encodeURIComponent("Assalammualaikum Kopi Amai, saya ingin bertanya harga Paket Renceng Lapau.")}`,"_blank","noopener")}
+function bukaKeranjang(){renderKeranjang();document.getElementById("cart-overlay").classList.add("open")}
+function tutupKeranjang(){document.getElementById("cart-overlay").classList.remove("open")}
+function tutupOverlay(e,id){if(e.target.id===id)document.getElementById(id).classList.remove("open")}
+renderKatalog();simpanKeranjang();renderKeranjang();
+</script>
+</body>
+</html>
